@@ -46,8 +46,6 @@ Below are a few sample views from the app:
 |------------|----------------|
 | ![Home Screenshot](./screenshots/home.png) | ![Favorites Screenshot](./screenshots/favorites.png) |
 
-> You can add screenshots to a `screenshots` folder in your project root and update these paths accordingly.
-
 ---
 
 ## 🛠 Tech Stack
