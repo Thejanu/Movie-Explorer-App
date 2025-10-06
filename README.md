@@ -89,7 +89,7 @@ Below are a few sample views from the app:
 
 This project uses Vite’s built-in support for environment variables:
 
-- `VITE_TMDB_API_KEY` — your TMDB API key  
+- `VITE_TMDB_API_KEY` - your TMDB API key  
   > ⚠️ **Do not commit your `.env` file to GitHub.**
 
 ---
