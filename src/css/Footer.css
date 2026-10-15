@@ -1,0 +1,35 @@
+.app-footer {
+  background: #111;
+  color: #fff;
+  padding: 12px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-size: 14px;
+
+  /* hide by default and animate in */
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 280ms ease, opacity 200ms ease;
+  pointer-events: none;
+}
+.app-footer__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* visible state when scrolled to bottom */
+.app-footer.visible {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+.app-footer.hidden {
+  transform: translateY(100%);
+  opacity: 0;
+  pointer-events: none;
+}
